@@ -83,7 +83,7 @@ const SearchBar = ({ origin, destination, amount, originId, destinationId }) => 
 
 
     return (
-        <container className="flex justify-center">
+        <container className="flex justify-center py-8">
             < div class="p-4 mx-6 w-full max-w-lg bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <div className='flex w-full justify-between' onClick={handleToggleActive}>
                     <div className='flex'>

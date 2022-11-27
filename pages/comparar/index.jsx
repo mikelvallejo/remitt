@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import ProviderCard from "../../components/ProviderCard/ProviderCard"
-import Navigation from "../../components/Navigation/Navigation";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import RateBanner from "../../components/RateBanner/RateBaner";
 import Footer from "../../components/Footer/Footer"
@@ -11,9 +10,17 @@ const ComparePage = ({ origin, destination, amount, originId, destinationId }) =
 
     const [providers, setProviders] = useState([]);
 
+    function sortProviders(providers) {
+        return providers.sort((a, b) => {
+            if ((b.quotes[0].rate * amount - b.quotes[0].fee * b.quotes[0].rate) < (a.quotes[0].rate * amount - a.quotes[0].fee * a.quotes[0].rate)) {
+                return -1;
+            }
+        });
+    }
 
     const getData = async () => {
-        let data = getProviders(origin, destination, amount)
+        let data = await getProviders(origin, destination, amount);
+        sortProviders(data);
         return data
     }
 
@@ -27,7 +34,6 @@ const ComparePage = ({ origin, destination, amount, originId, destinationId }) =
 
     return (
         <>
-            <Navigation />
             <SearchBar origin={origin} destination={destination} amount={amount} originId={originId} destinationId={destinationId} />
             <h1 className="flex justify-center text-center text-3xl mt-10 mx-6">Hemos encontrado {providers.length} proveedores</h1>
             <RateBanner destination={destination} amount={amount} />
@@ -40,14 +46,19 @@ const ComparePage = ({ origin, destination, amount, originId, destinationId }) =
                         :
                         <container>
 
-                            {providers.length > 0 && providers
-                                .map(provider => {
+                            {providers
+                                .map((provider, index) => {
+
                                     return (
-                                        <ProviderCard provider={provider} origin={origin} destination={destination} amount={amount} />
+                                        <ProviderCard
+                                            key={index}
+                                            provider={provider}
+                                            origin={origin}
+                                            destination={destination}
+                                            amount={amount}
+                                        />
                                     )
-                                }
-                                )
-                            }
+                                })}
                         </container>
                 }
 
