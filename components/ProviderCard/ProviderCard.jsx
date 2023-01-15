@@ -8,6 +8,10 @@ const ProviderCard = ({ provider, origin, destination, amount }) => {
     const handleClick = () => {
         if (providerUrls.find(providerUrl => providerUrl.name === provider.name).url) {
             router.push(providerUrls.find(providerUrl => providerUrl.name === provider.name).url)
+            window.analytics.track('partner_button_clicked', {
+                provider: provider.name,
+                provider_url: providerUrls.find(providerUrl => providerUrl.name === provider.name).url,
+            })
         }
         else {
             router.push('www.google.com')
