@@ -21,6 +21,13 @@ const Finder = () => {
         flag: `data:image/png;base64,${country.flag}`,
     }))
 
+    const trackEvent = () => {
+        window.analytics.track('search_button_clicked', {
+            origin: input.origin,
+            destination: input.destination,
+            amount: input.amount,
+        })
+    }
 
     const customStyles = {
         option: (provided) => ({
@@ -136,7 +143,7 @@ const Finder = () => {
                         }}
                             as={`/comparar?origin=${input.origin}&destination=${input.destination}&amount=${input.amount}&originId=${input.originId}&destinationId=${input.destinationId}`}
                         >
-                            <button type="submit" className="text-white bg-emerald-600 hover:bg-emerald-700 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm w-full  px-5 py-2.5 text-center">Buscar el mejor precio</button>
+                            <button type="submit" className="text-white bg-emerald-600 hover:bg-emerald-700 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm w-full  px-5 py-2.5 text-center" onClick={trackEvent}>Buscar el mejor precio</button>
 
                         </Link>
                     </form>

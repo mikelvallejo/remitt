@@ -1,6 +1,7 @@
 import Finder from '../components/Finder/Finder'
 import Footer from '../components/Footer/Footer'
 import Navigation from '../components/Navigation/Navigation'
+import Script from 'next/script'
 
 const Home = () => {
   return (
