@@ -12,36 +12,36 @@
                 "id": 39,
                 "alias": "wise",
                 "name": "Wise",
-                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
+                "logo": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.png"
                     },
                     "inverse": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.png"
                     },
                     "white": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.png"
                     }
                 },
                 "type": "moneyTransferProvider",
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 208.451,
+                        "rate": 209.812,
                         "fee": 4.26,
-                        "receivedAmount": 19957.1,
-                        "dateCollected": "2023-02-28T08:01:12Z",
+                        "receivedAmount": 20087.4,
+                        "dateCollected": "2023-03-01T08:01:17Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT6H28M47.508305888S",
-                                "max": "PT6H28M47.508305888S"
+                                "min": "PT6H28M42.708915425S",
+                                "max": "PT6H28M42.708915425S"
                             },
                             "providerGivesEstimate": true
                         }
@@ -71,17 +71,17 @@
                 "partner": true,
                 "quotes": [
                     {
-                        "rate": 208.451,
+                        "rate": 209.812,
                         "fee": 4.26,
-                        "receivedAmount": 19957.1,
-                        "dateCollected": "2023-02-28T08:01:12Z",
+                        "receivedAmount": 20087.4,
+                        "dateCollected": "2023-03-01T08:01:17Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT6H28M47.500390309S",
-                                "max": "PT6H28M47.500390309S"
+                                "min": "PT6H28M42.708214327S",
+                                "max": "PT6H28M42.708214327S"
                             },
                             "providerGivesEstimate": true
                         }
@@ -110,35 +110,75 @@
         "sendAmount": 100.0,
         "providers": [
             {
-                "id": 104,
-                "alias": "remitly",
-                "name": "Remitly",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.svg",
+                "id": 46,
+                "alias": "n26",
+                "name": "N26",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.png"
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.png"
                     },
                     "inverse": {
                         "svgUrl": null,
                         "pngUrl": null
                     },
                     "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly--white.png"
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26--white.png"
+                    }
+                },
+                "type": "bank",
+                "partner": true,
+                "quotes": [
+                    {
+                        "rate": 5.57316,
+                        "fee": 1.78,
+                        "receivedAmount": 547.4,
+                        "dateCollected": "2023-03-01T08:00:00Z",
+                        "sourceCountry": null,
+                        "targetCountry": null,
+                        "markup": 0.0,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": "PT6H39M17.406486089S",
+                                "max": "PT6H39M17.406486089S"
+                            },
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "alias": "ofx",
+                "name": "OFX",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx--white.png"
                     }
                 },
                 "type": "moneyTransferProvider",
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 5.41025532,
-                        "fee": 1.99,
-                        "receivedAmount": 530.26,
-                        "dateCollected": "2023-02-28T07:48:16.427938Z",
-                        "sourceCountry": "DE",
-                        "targetCountry": "BR",
-                        "markup": 1.79527696,
+                        "rate": 5.27977771,
+                        "fee": 0.0,
+                        "receivedAmount": 527.98,
+                        "dateCollected": "2023-03-01T07:23:43.026090Z",
+                        "sourceCountry": null,
+                        "targetCountry": null,
+                        "markup": 5.26420002,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -147,40 +187,77 @@
                 ]
             },
             {
-                "id": 45,
-                "alias": "bunq",
-                "name": "bunq",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq.svg",
+                "id": 23,
+                "alias": "moneygram",
+                "name": "Moneygram",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq.png"
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.png"
                     },
                     "inverse": {
                         "svgUrl": null,
                         "pngUrl": null
                     },
                     "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq--white.png"
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram--white.png"
                     }
                 },
-                "type": "bank",
-                "partner": true,
+                "type": "moneyTransferProvider",
+                "partner": false,
                 "quotes": [
                     {
-                        "rate": 5.50994,
-                        "fee": 1.78,
-                        "receivedAmount": 541.19,
-                        "dateCollected": "2023-02-28T07:59:52Z",
-                        "sourceCountry": null,
-                        "targetCountry": null,
-                        "markup": 0.0,
+                        "rate": 5.51607,
+                        "fee": 4.5,
+                        "receivedAmount": 526.78,
+                        "dateCollected": "2023-02-27T16:48:56Z",
+                        "sourceCountry": "DE",
+                        "targetCountry": "BR",
+                        "markup": 1.02437396,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT6H39M20.23638785S",
-                                "max": "PT6H39M20.23638785S"
+                                "min": "PT0S",
+                                "max": "PT96H"
                             },
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "alias": "western-union",
+                "name": "Western Union",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union--white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 5.38957682,
+                        "fee": 0.0,
+                        "receivedAmount": 538.96,
+                        "dateCollected": "2023-02-27T19:29:53Z",
+                        "sourceCountry": "AT",
+                        "targetCountry": "BR",
+                        "markup": 3.29405903,
+                        "deliveryEstimation": {
+                            "duration": null,
                             "providerGivesEstimate": true
                         }
                     }
@@ -209,13 +286,13 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 5.22814717,
+                        "rate": 5.26755822,
                         "fee": 5.0,
-                        "receivedAmount": 496.67,
-                        "dateCollected": "2023-02-28T07:32:09.275857Z",
+                        "receivedAmount": 500.42,
+                        "dateCollected": "2023-03-01T07:33:48.232007Z",
                         "sourceCountry": "DE",
                         "targetCountry": "BR",
-                        "markup": 5.10082898,
+                        "markup": 5.48345606,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -246,13 +323,87 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 5.3102634,
+                        "rate": 5.37274727,
                         "fee": 2.99,
-                        "receivedAmount": 515.15,
-                        "dateCollected": "2023-02-24T13:17:42Z",
+                        "receivedAmount": 521.21,
+                        "dateCollected": "2023-02-28T09:06:38Z",
                         "sourceCountry": "DE",
                         "targetCountry": "BR",
-                        "markup": 3.61028905,
+                        "markup": 3.59603403,
+                        "deliveryEstimation": {
+                            "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 104,
+                "alias": "remitly",
+                "name": "Remitly",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly--white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 5.47388814,
+                        "fee": 1.99,
+                        "receivedAmount": 536.5,
+                        "dateCollected": "2023-03-01T07:43:24.256381Z",
+                        "sourceCountry": "DE",
+                        "targetCountry": "BR",
+                        "markup": 1.78124906,
+                        "deliveryEstimation": {
+                            "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 43,
+                "alias": "ing-nl",
+                "name": "ING",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl--white.png"
+                    }
+                },
+                "type": "bank",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 5.57316,
+                        "fee": 31.0,
+                        "receivedAmount": 384.55,
+                        "dateCollected": "2023-03-01T07:20:01.449273Z",
+                        "sourceCountry": "NL",
+                        "targetCountry": "BR",
+                        "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -283,17 +434,17 @@
                 "partner": true,
                 "quotes": [
                     {
-                        "rate": 5.50994,
+                        "rate": 5.57316,
                         "fee": 1.78,
-                        "receivedAmount": 541.19,
-                        "dateCollected": "2023-02-28T07:59:52Z",
+                        "receivedAmount": 547.4,
+                        "dateCollected": "2023-03-01T08:00:00Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT6H39M20.236469257S",
-                                "max": "PT6H39M20.236469257S"
+                                "min": "PT6H39M17.406710843S",
+                                "max": "PT6H39M17.406710843S"
                             },
                             "providerGivesEstimate": true
                         }
@@ -301,114 +452,40 @@
                 ]
             },
             {
-                "id": 22,
-                "alias": "western-union",
-                "name": "Western Union",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.svg",
+                "id": 45,
+                "alias": "bunq",
+                "name": "bunq",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.png"
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq.png"
                     },
                     "inverse": {
                         "svgUrl": null,
                         "pngUrl": null
                     },
                     "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union--white.png"
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bunq--white.png"
                     }
                 },
-                "type": "moneyTransferProvider",
-                "partner": false,
+                "type": "bank",
+                "partner": true,
                 "quotes": [
                     {
-                        "rate": 5.32425623,
-                        "fee": 0.0,
-                        "receivedAmount": 532.43,
-                        "dateCollected": "2023-02-24T10:37:00Z",
-                        "sourceCountry": "AT",
-                        "targetCountry": "BR",
-                        "markup": 3.35629697,
-                        "deliveryEstimation": {
-                            "duration": null,
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 39,
-                "alias": "wise",
-                "name": "Wise",
-                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
-                    },
-                    "inverse": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
-                    },
-                    "white": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 5.50916,
+                        "rate": 5.57316,
                         "fee": 1.78,
-                        "receivedAmount": 541.11,
-                        "dateCollected": "2023-02-28T08:00:39Z",
+                        "receivedAmount": 547.4,
+                        "dateCollected": "2023-03-01T08:00:00Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT6H39M20.176875501S",
-                                "max": "PT6H39M20.176875501S"
+                                "min": "PT6H39M17.406588042S",
+                                "max": "PT6H39M17.406588042S"
                             },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 59,
-                "alias": "ofx",
-                "name": "OFX",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ofx--white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 5.21065096,
-                        "fee": 0.0,
-                        "receivedAmount": 521.07,
-                        "dateCollected": "2023-02-28T07:23:38.555917Z",
-                        "sourceCountry": null,
-                        "targetCountry": null,
-                        "markup": 5.41841297,
-                        "deliveryEstimation": {
-                            "duration": null,
                             "providerGivesEstimate": true
                         }
                     }
@@ -437,13 +514,13 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 5.4193781,
+                        "rate": 5.49403077,
                         "fee": 3.99,
-                        "receivedAmount": 520.31,
-                        "dateCollected": "2023-02-24T13:53:59Z",
+                        "receivedAmount": 527.48,
+                        "dateCollected": "2023-02-28T09:24:04Z",
                         "sourceCountry": "DE",
                         "targetCountry": "BR",
-                        "markup": 1.62968402,
+                        "markup": 1.41982699,
                         "deliveryEstimation": {
                             "duration": {
                                 "min": "PT0S",
@@ -455,117 +532,40 @@
                 ]
             },
             {
-                "id": 23,
-                "alias": "moneygram",
-                "name": "Moneygram",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.svg",
+                "id": 39,
+                "alias": "wise",
+                "name": "Wise",
+                "logo": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.png"
                     },
                     "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.png"
                     },
                     "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram--white.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.png"
                     }
                 },
                 "type": "moneyTransferProvider",
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 5.48518287,
-                        "fee": 4.5,
-                        "receivedAmount": 523.83,
-                        "dateCollected": "2023-02-23T19:48:24Z",
-                        "sourceCountry": "DE",
-                        "targetCountry": "BR",
-                        "markup": 0.43522297,
-                        "deliveryEstimation": {
-                            "duration": {
-                                "min": "PT0S",
-                                "max": "PT96H"
-                            },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 46,
-                "alias": "n26",
-                "name": "N26",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26--white.png"
-                    }
-                },
-                "type": "bank",
-                "partner": true,
-                "quotes": [
-                    {
-                        "rate": 5.50994,
+                        "rate": 5.57316,
                         "fee": 1.78,
-                        "receivedAmount": 541.19,
-                        "dateCollected": "2023-02-28T07:59:52Z",
+                        "receivedAmount": 547.4,
+                        "dateCollected": "2023-03-01T08:00:42Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT6H39M20.236300555S",
-                                "max": "PT6H39M20.236300555S"
+                                "min": "PT6H39M17.354249601S",
+                                "max": "PT6H39M17.354249601S"
                             },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 43,
-                "alias": "ing-nl",
-                "name": "ING",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl--white.png"
-                    }
-                },
-                "type": "bank",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 5.50916,
-                        "fee": 31.0,
-                        "receivedAmount": 380.13,
-                        "dateCollected": "2023-02-28T06:20:00.957919Z",
-                        "sourceCountry": "NL",
-                        "targetCountry": "BR",
-                        "markup": 0.0,
-                        "deliveryEstimation": {
-                            "duration": null,
                             "providerGivesEstimate": true
                         }
                     }
@@ -605,13 +605,13 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 868.12132612,
+                        "rate": 867.05913745,
                         "fee": 4.99,
-                        "receivedAmount": 82480.21,
-                        "dateCollected": "2023-02-28T07:48:22.004482Z",
+                        "receivedAmount": 82379.29,
+                        "dateCollected": "2023-03-01T07:43:26.592115Z",
                         "sourceCountry": "DE",
                         "targetCountry": "CL",
-                        "markup": 1.596752,
+                        "markup": 1.560714,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -623,36 +623,36 @@
                 "id": 39,
                 "alias": "wise",
                 "name": "Wise",
-                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
+                "logo": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.png"
                     },
                     "inverse": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.png"
                     },
                     "white": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.png"
                     }
                 },
                 "type": "moneyTransferProvider",
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 882.208,
+                        "rate": 880.806,
                         "fee": 3.38,
-                        "receivedAmount": 85238.94,
-                        "dateCollected": "2023-02-28T08:01:13Z",
+                        "receivedAmount": 85103.48,
+                        "dateCollected": "2023-03-01T08:01:18Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT52H58M46.286437487S",
-                                "max": "PT52H58M46.286437487S"
+                                "min": "PT52H58M41.911984462S",
+                                "max": "PT52H58M41.911984462S"
                             },
                             "providerGivesEstimate": true
                         }
@@ -693,13 +693,13 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 4949.8955819,
+                        "rate": 5080.5593414,
                         "fee": 2.99,
-                        "receivedAmount": 480189.37,
-                        "dateCollected": "2023-02-28T07:48:27.714035Z",
+                        "receivedAmount": 492865.06,
+                        "dateCollected": "2023-03-01T07:43:29.077582Z",
                         "sourceCountry": "DE",
                         "targetCountry": "CO",
-                        "markup": 1.843486,
+                        "markup": 1.756787,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -711,36 +711,36 @@
                 "id": 39,
                 "alias": "wise",
                 "name": "Wise",
-                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
+                "logo": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.png"
                     },
                     "inverse": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.png"
                     },
                     "white": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.png"
                     }
                 },
                 "type": "moneyTransferProvider",
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 5042.86,
+                        "rate": 5171.41,
                         "fee": 3.18,
-                        "receivedAmount": 488249.71,
-                        "dateCollected": "2023-02-28T08:01:14Z",
+                        "receivedAmount": 500695.92,
+                        "dateCollected": "2023-03-01T08:01:18Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT3H3M59.932160945S",
-                                "max": "PT3H3M59.932160945S"
+                                "min": "PT2H48M59.598032514S",
+                                "max": "PT2H48M59.598032514S"
                             },
                             "providerGivesEstimate": true
                         }
@@ -770,13 +770,13 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 4875.8240875,
+                        "rate": 4977.34327264,
                         "fee": 45.0,
-                        "receivedAmount": 268170.32,
-                        "dateCollected": "2023-02-28T07:50:38.023481Z",
+                        "receivedAmount": 273753.88,
+                        "dateCollected": "2023-03-01T07:50:20.858930Z",
                         "sourceCountry": "ES",
                         "targetCountry": null,
-                        "markup": 3.312325,
+                        "markup": 3.752685,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -818,13 +818,13 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 566.7967627,
+                        "rate": 566.48671072,
                         "fee": 3.99,
-                        "receivedAmount": 54418.16,
-                        "dateCollected": "2023-02-28T07:48:30.419310Z",
+                        "receivedAmount": 54388.39,
+                        "dateCollected": "2023-03-01T07:43:30.256061Z",
                         "sourceCountry": "DE",
                         "targetCountry": "CR",
-                        "markup": 4.426978,
+                        "markup": 4.664127,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -836,36 +836,36 @@
                 "id": 39,
                 "alias": "wise",
                 "name": "Wise",
-                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
+                "logo": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.png"
                     },
                     "inverse": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.png"
                     },
                     "white": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.png"
                     }
                 },
                 "type": "moneyTransferProvider",
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 593.051,
+                        "rate": 594.201,
                         "fee": 5.51,
-                        "receivedAmount": 56037.39,
-                        "dateCollected": "2023-02-28T08:01:14Z",
+                        "receivedAmount": 56146.05,
+                        "dateCollected": "2023-03-01T08:01:18Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT39H58M45.584416542S",
-                                "max": "PT39H58M45.584416542S"
+                                "min": "PT39H58M41.295227169S",
+                                "max": "PT39H58M41.295227169S"
                             },
                             "providerGivesEstimate": true
                         }
@@ -895,17 +895,17 @@
                 "partner": true,
                 "quotes": [
                     {
-                        "rate": 593.051,
+                        "rate": 594.201,
                         "fee": 5.51,
-                        "receivedAmount": 56037.39,
-                        "dateCollected": "2023-02-28T08:01:14Z",
+                        "receivedAmount": 56146.05,
+                        "dateCollected": "2023-03-01T08:01:18Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT39H58M45.59072598S",
-                                "max": "PT39H58M45.59072598S"
+                                "min": "PT39H58M41.29003799S",
+                                "max": "PT39H58M41.29003799S"
                             },
                             "providerGivesEstimate": true
                         }
@@ -964,80 +964,37 @@
         "sendAmount": 100.0,
         "providers": [
             {
-                "id": 46,
-                "alias": "n26",
-                "name": "N26",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.svg",
+                "id": 22,
+                "alias": "western-union",
+                "name": "Western Union",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.svg",
                 "logos": {
                     "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.png"
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.png"
                     },
                     "inverse": {
                         "svgUrl": null,
                         "pngUrl": null
                     },
                     "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26--white.png"
-                    }
-                },
-                "type": "bank",
-                "partner": true,
-                "quotes": [
-                    {
-                        "rate": 19.4992,
-                        "fee": 1.09,
-                        "receivedAmount": 1928.67,
-                        "dateCollected": "2023-02-28T08:01:15Z",
-                        "sourceCountry": null,
-                        "targetCountry": null,
-                        "markup": 0.0,
-                        "deliveryEstimation": {
-                            "duration": {
-                                "min": "PT3H3M58.9664677S",
-                                "max": "PT3H3M58.9664677S"
-                            },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 30,
-                "alias": "world-remit",
-                "name": "WorldRemit",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit--white.png"
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union--white.png"
                     }
                 },
                 "type": "moneyTransferProvider",
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 19.28306697,
-                        "fee": 3.99,
-                        "receivedAmount": 1851.37,
-                        "dateCollected": "2023-02-24T13:56:29Z",
-                        "sourceCountry": "DE",
+                        "rate": 19.11724929,
+                        "fee": 0.0,
+                        "receivedAmount": 1911.72,
+                        "dateCollected": "2023-02-27T19:33:22Z",
+                        "sourceCountry": "AT",
                         "targetCountry": "MX",
-                        "markup": 1.10841999,
+                        "markup": 1.58734201,
                         "deliveryEstimation": {
-                            "duration": {
-                                "min": "PT0S",
-                                "max": "PT2H"
-                            },
+                            "duration": null,
                             "providerGivesEstimate": true
                         }
                     }
@@ -1066,374 +1023,13 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 19.13855879,
+                        "rate": 19.04796284,
                         "fee": 2.0,
-                        "receivedAmount": 1875.58,
-                        "dateCollected": "2023-02-24T11:51:28Z",
+                        "receivedAmount": 1866.7,
+                        "dateCollected": "2023-02-27T20:40:04Z",
                         "sourceCountry": "DE",
                         "targetCountry": "MX",
-                        "markup": 1.84951798,
-                        "deliveryEstimation": {
-                            "duration": null,
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 9,
-                "alias": "lacaixa",
-                "name": "LaCaixa",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank--white.png"
-                    }
-                },
-                "type": "bank",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 19.03524072,
-                        "fee": 27.0,
-                        "receivedAmount": 1389.57,
-                        "dateCollected": "2023-02-28T07:20:04.514506Z",
-                        "sourceCountry": "ES",
-                        "targetCountry": null,
-                        "markup": 2.37937597,
-                        "deliveryEstimation": {
-                            "duration": {
-                                "min": "PT24H",
-                                "max": "PT24H"
-                            },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 22,
-                "alias": "western-union",
-                "name": "Western Union",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/western-union--white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 19.1704546,
-                        "fee": 0.0,
-                        "receivedAmount": 1917.05,
-                        "dateCollected": "2023-02-24T10:44:33Z",
-                        "sourceCountry": "AT",
-                        "targetCountry": "MX",
-                        "markup": 1.68594301,
-                        "deliveryEstimation": {
-                            "duration": null,
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 23,
-                "alias": "moneygram",
-                "name": "Moneygram",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram--white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 19.47155286,
-                        "fee": 4.5,
-                        "receivedAmount": 1859.53,
-                        "dateCollected": "2023-02-23T20:03:25Z",
-                        "sourceCountry": "DE",
-                        "targetCountry": "MX",
-                        "markup": 0.14178602,
-                        "deliveryEstimation": {
-                            "duration": {
-                                "min": "PT1H",
-                                "max": "PT96H"
-                            },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 7,
-                "alias": "bbva",
-                "name": "BBVA",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva--white.png"
-                    }
-                },
-                "type": "bank",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 18.78246791,
-                        "fee": 45.0,
-                        "receivedAmount": 1033.04,
-                        "dateCollected": "2023-02-28T07:50:38.023675Z",
-                        "sourceCountry": "ES",
-                        "targetCountry": null,
-                        "markup": 3.67569998,
-                        "deliveryEstimation": {
-                            "duration": null,
-                            "providerGivesEstimate": true
-                        }
-                    },
-                    {
-                        "rate": 18.78246791,
-                        "fee": 45.0,
-                        "receivedAmount": 1033.04,
-                        "dateCollected": "2023-02-28T07:50:38.023675Z",
-                        "sourceCountry": "ES",
-                        "targetCountry": "MX",
-                        "markup": 3.67569998,
-                        "deliveryEstimation": {
-                            "duration": {
-                                "min": null,
-                                "max": "PT96H"
-                            },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 39,
-                "alias": "wise",
-                "name": "Wise",
-                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
-                    },
-                    "inverse": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
-                    },
-                    "white": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 19.4992,
-                        "fee": 1.09,
-                        "receivedAmount": 1928.67,
-                        "dateCollected": "2023-02-28T08:01:15Z",
-                        "sourceCountry": null,
-                        "targetCountry": null,
-                        "markup": 0.0,
-                        "deliveryEstimation": {
-                            "duration": {
-                                "min": "PT3H3M59.056476404S",
-                                "max": "PT3H3M59.056476404S"
-                            },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 10,
-                "alias": "sabadell",
-                "name": "Sabadell",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell--white.png"
-                    }
-                },
-                "type": "bank",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 18.82593708,
-                        "fee": 22.0,
-                        "receivedAmount": 1468.42,
-                        "dateCollected": "2023-02-28T07:40:00.960794Z",
-                        "sourceCountry": "ES",
-                        "targetCountry": null,
-                        "markup": 3.45277201,
-                        "deliveryEstimation": {
-                            "duration": null,
-                            "providerGivesEstimate": false
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "alias": "paypal",
-                "name": "PayPal",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal--white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 18.52187377,
-                        "fee": 5.0,
-                        "receivedAmount": 1759.58,
-                        "dateCollected": "2023-02-28T07:31:20.711727Z",
-                        "sourceCountry": "DE",
-                        "targetCountry": "MX",
-                        "markup": 5.01213501,
-                        "deliveryEstimation": {
-                            "duration": null,
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 43,
-                "alias": "ing-nl",
-                "name": "ING",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl--white.png"
-                    }
-                },
-                "type": "bank",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 19.4992,
-                        "fee": 36.0,
-                        "receivedAmount": 1247.95,
-                        "dateCollected": "2023-02-28T06:20:00.960108Z",
-                        "sourceCountry": "NL",
-                        "targetCountry": "MX",
-                        "markup": 0.0,
-                        "deliveryEstimation": {
-                            "duration": {
-                                "min": "PT48H",
-                                "max": "PT72H"
-                            },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 41,
-                "alias": "xoom",
-                "name": "Xoom",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom--white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 19.02903724,
-                        "fee": 2.99,
-                        "receivedAmount": 1846.01,
-                        "dateCollected": "2023-02-24T13:17:42Z",
-                        "sourceCountry": "DE",
-                        "targetCountry": "MX",
-                        "markup": 2.41119,
+                        "markup": 1.944018,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -1464,15 +1060,108 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 18.92579697,
+                        "rate": 19.03296239,
                         "fee": 9.0,
-                        "receivedAmount": 1722.25,
-                        "dateCollected": "2023-02-28T07:50:02.754952Z",
+                        "receivedAmount": 1732.0,
+                        "dateCollected": "2023-03-01T07:50:03.273956Z",
                         "sourceCountry": "NL",
                         "targetCountry": "MX",
-                        "markup": 2.940649,
+                        "markup": 2.02123801,
                         "deliveryEstimation": {
                             "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 43,
+                "alias": "ing-nl",
+                "name": "ING",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/ingnl--white.png"
+                    }
+                },
+                "type": "bank",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 19.4256,
+                        "fee": 36.0,
+                        "receivedAmount": 1243.24,
+                        "dateCollected": "2023-03-01T07:20:01.451978Z",
+                        "sourceCountry": "NL",
+                        "targetCountry": "MX",
+                        "markup": 0.0,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": "PT48H",
+                                "max": "PT72H"
+                            },
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "alias": "bbva",
+                "name": "BBVA",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/bbva--white.png"
+                    }
+                },
+                "type": "bank",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 18.9085863,
+                        "fee": 45.0,
+                        "receivedAmount": 1039.97,
+                        "dateCollected": "2023-03-01T07:50:20.859069Z",
+                        "sourceCountry": "ES",
+                        "targetCountry": null,
+                        "markup": 2.66150698,
+                        "deliveryEstimation": {
+                            "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    },
+                    {
+                        "rate": 18.9085863,
+                        "fee": 45.0,
+                        "receivedAmount": 1039.97,
+                        "dateCollected": "2023-03-01T07:50:20.859069Z",
+                        "sourceCountry": "ES",
+                        "targetCountry": "MX",
+                        "markup": 2.66150698,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": null,
+                                "max": "PT96H"
+                            },
                             "providerGivesEstimate": true
                         }
                     }
@@ -1501,15 +1190,55 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 18.99834374,
+                        "rate": 18.93651526,
                         "fee": 4.49,
-                        "receivedAmount": 1814.53,
-                        "dateCollected": "2023-02-28T07:49:05.741969Z",
+                        "receivedAmount": 1808.63,
+                        "dateCollected": "2023-03-01T07:43:44.807540Z",
                         "sourceCountry": "DE",
                         "targetCountry": "MX",
-                        "markup": 2.56859902,
+                        "markup": 2.51773299,
                         "deliveryEstimation": {
                             "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "alias": "lacaixa",
+                "name": "LaCaixa",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/caixa-bank--white.png"
+                    }
+                },
+                "type": "bank",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 18.96480806,
+                        "fee": 27.0,
+                        "receivedAmount": 1384.43,
+                        "dateCollected": "2023-03-01T07:20:05.312849Z",
+                        "sourceCountry": "ES",
+                        "targetCountry": null,
+                        "markup": 2.37208601,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": "PT24H",
+                                "max": "PT24H"
+                            },
                             "providerGivesEstimate": true
                         }
                     }
@@ -1538,15 +1267,55 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 19.22031815,
+                        "rate": 19.14512211,
                         "fee": 0.0,
-                        "receivedAmount": 1922.03,
-                        "dateCollected": "2023-02-28T07:24:58.829295Z",
+                        "receivedAmount": 1914.51,
+                        "dateCollected": "2023-03-01T07:25:06.083542Z",
                         "sourceCountry": null,
                         "targetCountry": null,
-                        "markup": 1.43022201,
+                        "markup": 1.44385702,
                         "deliveryEstimation": {
                             "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "alias": "moneygram",
+                "name": "Moneygram",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/moneygram--white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 19.27682185,
+                        "fee": 4.5,
+                        "receivedAmount": 1840.94,
+                        "dateCollected": "2023-02-27T16:58:49Z",
+                        "sourceCountry": "DE",
+                        "targetCountry": "MX",
+                        "markup": 0.76588703,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": "PT1H",
+                                "max": "PT96H"
+                            },
                             "providerGivesEstimate": true
                         }
                     }
@@ -1575,17 +1344,248 @@
                 "partner": true,
                 "quotes": [
                     {
-                        "rate": 19.4992,
+                        "rate": 19.4256,
                         "fee": 1.09,
-                        "receivedAmount": 1928.67,
-                        "dateCollected": "2023-02-28T08:01:15Z",
+                        "receivedAmount": 1921.39,
+                        "dateCollected": "2023-03-01T08:01:20Z",
                         "sourceCountry": null,
                         "targetCountry": null,
                         "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": {
-                                "min": "PT3H3M59.063391457S",
-                                "max": "PT3H3M59.063391457S"
+                                "min": "PT2H48M59.921719635S",
+                                "max": "PT2H48M59.921719635S"
+                            },
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "alias": "xoom",
+                "name": "Xoom",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/xoom--white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 18.9471061,
+                        "fee": 2.99,
+                        "receivedAmount": 1838.06,
+                        "dateCollected": "2023-02-28T09:08:40Z",
+                        "sourceCountry": "DE",
+                        "targetCountry": "MX",
+                        "markup": 2.46321298,
+                        "deliveryEstimation": {
+                            "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "alias": "wise",
+                "name": "Wise",
+                "logo": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.png"
+                    },
+                    "inverse": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.png"
+                    },
+                    "white": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 19.4256,
+                        "fee": 1.09,
+                        "receivedAmount": 1921.39,
+                        "dateCollected": "2023-03-01T08:01:20Z",
+                        "sourceCountry": null,
+                        "targetCountry": null,
+                        "markup": 0.0,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": "PT2H48M59.923353045S",
+                                "max": "PT2H48M59.923353045S"
+                            },
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "alias": "sabadell",
+                "name": "Sabadell",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/sabadell--white.png"
+                    }
+                },
+                "type": "bank",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 18.89442193,
+                        "fee": 22.0,
+                        "receivedAmount": 1473.76,
+                        "dateCollected": "2023-03-01T07:40:02.599188Z",
+                        "sourceCountry": "ES",
+                        "targetCountry": null,
+                        "markup": 2.73442298,
+                        "deliveryEstimation": {
+                            "duration": null,
+                            "providerGivesEstimate": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "alias": "world-remit",
+                "name": "WorldRemit",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/world-remit--white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 19.19365076,
+                        "fee": 3.99,
+                        "receivedAmount": 1842.78,
+                        "dateCollected": "2023-02-28T09:25:27Z",
+                        "sourceCountry": "DE",
+                        "targetCountry": "MX",
+                        "markup": 1.194039,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": "PT0S",
+                                "max": "PT2H"
+                            },
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "alias": "paypal",
+                "name": "PayPal",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/paypal--white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 18.56913229,
+                        "fee": 5.0,
+                        "receivedAmount": 1764.07,
+                        "dateCollected": "2023-03-01T07:32:41.664825Z",
+                        "sourceCountry": "DE",
+                        "targetCountry": "MX",
+                        "markup": 4.408964,
+                        "deliveryEstimation": {
+                            "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 46,
+                "alias": "n26",
+                "name": "N26",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/N26--white.png"
+                    }
+                },
+                "type": "bank",
+                "partner": true,
+                "quotes": [
+                    {
+                        "rate": 19.4256,
+                        "fee": 1.09,
+                        "receivedAmount": 1921.39,
+                        "dateCollected": "2023-03-01T08:01:20Z",
+                        "sourceCountry": null,
+                        "targetCountry": null,
+                        "markup": 0.0,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": "PT2H48M59.85220069S",
+                                "max": "PT2H48M59.85220069S"
                             },
                             "providerGivesEstimate": true
                         }
@@ -1624,80 +1624,6 @@
         "sendAmount": 100.0,
         "providers": [
             {
-                "id": 104,
-                "alias": "remitly",
-                "name": "Remitly",
-                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.png"
-                    },
-                    "inverse": {
-                        "svgUrl": null,
-                        "pngUrl": null
-                    },
-                    "white": {
-                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly--white.svg",
-                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly--white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 3.90018354,
-                        "fee": 2.99,
-                        "receivedAmount": 378.36,
-                        "dateCollected": "2023-02-28T07:49:13.946829Z",
-                        "sourceCountry": "DE",
-                        "targetCountry": "PE",
-                        "markup": 3.38858404,
-                        "deliveryEstimation": {
-                            "duration": null,
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
-                "id": 39,
-                "alias": "wise",
-                "name": "Wise",
-                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
-                    },
-                    "inverse": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
-                    },
-                    "white": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 4.03698,
-                        "fee": 8.88,
-                        "receivedAmount": 367.85,
-                        "dateCollected": "2023-02-28T07:03:28.390404Z",
-                        "sourceCountry": null,
-                        "targetCountry": null,
-                        "markup": 0.0,
-                        "deliveryEstimation": {
-                            "duration": null,
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
                 "id": 7,
                 "alias": "bbva",
                 "name": "BBVA",
@@ -1720,13 +1646,13 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 3.8467829,
+                        "rate": 3.84730187,
                         "fee": 45.0,
-                        "receivedAmount": 211.57,
-                        "dateCollected": "2023-02-28T07:50:38.023713Z",
+                        "receivedAmount": 211.6,
+                        "dateCollected": "2023-03-01T07:50:20.859096Z",
                         "sourceCountry": "ES",
                         "targetCountry": null,
-                        "markup": 4.71137088,
+                        "markup": 4.73391301,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -1757,13 +1683,87 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 3.93152044,
+                        "rate": 3.92072002,
                         "fee": 0.0,
-                        "receivedAmount": 393.15,
-                        "dateCollected": "2023-02-28T07:25:18.730578Z",
+                        "receivedAmount": 392.07,
+                        "dateCollected": "2023-03-01T07:25:27.139964Z",
                         "sourceCountry": null,
                         "targetCountry": null,
-                        "markup": 2.61233794,
+                        "markup": 2.91594808,
+                        "deliveryEstimation": {
+                            "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 104,
+                "alias": "remitly",
+                "name": "Remitly",
+                "logo": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly.png"
+                    },
+                    "inverse": {
+                        "svgUrl": null,
+                        "pngUrl": null
+                    },
+                    "white": {
+                        "svgUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly--white.svg",
+                        "pngUrl": "https://dq8dwmysp7hk1.cloudfront.net/logos/remitly--white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 3.89934649,
+                        "fee": 2.99,
+                        "receivedAmount": 378.28,
+                        "dateCollected": "2023-03-01T07:43:48.188403Z",
+                        "sourceCountry": "DE",
+                        "targetCountry": "PE",
+                        "markup": 3.44519497,
+                        "deliveryEstimation": {
+                            "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "alias": "wise",
+                "name": "Wise",
+                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
+                    },
+                    "inverse": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
+                    },
+                    "white": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 4.03848,
+                        "fee": 8.88,
+                        "receivedAmount": 367.99,
+                        "dateCollected": "2023-03-01T07:03:20.317604Z",
+                        "sourceCountry": null,
+                        "targetCountry": null,
+                        "markup": 0.0,
                         "deliveryEstimation": {
                             "duration": null,
                             "providerGivesEstimate": true
@@ -1803,46 +1803,6 @@
         "sendAmount": 100.0,
         "providers": [
             {
-                "id": 39,
-                "alias": "wise",
-                "name": "Wise",
-                "logo": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                "logos": {
-                    "normal": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo.png"
-                    },
-                    "inverse": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_inverse.png"
-                    },
-                    "white": {
-                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.svg",
-                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise/brand_logo_white.png"
-                    }
-                },
-                "type": "moneyTransferProvider",
-                "partner": false,
-                "quotes": [
-                    {
-                        "rate": 41.0758,
-                        "fee": 6.32,
-                        "receivedAmount": 3847.98,
-                        "dateCollected": "2023-02-28T08:01:17Z",
-                        "sourceCountry": null,
-                        "targetCountry": null,
-                        "markup": 0.0,
-                        "deliveryEstimation": {
-                            "duration": {
-                                "min": "PT147H58M42.066364113S",
-                                "max": "PT147H58M42.066364113S"
-                            },
-                            "providerGivesEstimate": true
-                        }
-                    }
-                ]
-            },
-            {
                 "id": 104,
                 "alias": "remitly",
                 "name": "Remitly",
@@ -1865,15 +1825,55 @@
                 "partner": false,
                 "quotes": [
                     {
-                        "rate": 40.04249389,
+                        "rate": 40.55719142,
                         "fee": 3.49,
-                        "receivedAmount": 3864.5,
-                        "dateCollected": "2023-02-28T07:49:35.542253Z",
+                        "receivedAmount": 3914.17,
+                        "dateCollected": "2023-03-01T07:43:57.037853Z",
                         "sourceCountry": "DE",
                         "targetCountry": "UY",
-                        "markup": 2.515608,
+                        "markup": 2.41831799,
                         "deliveryEstimation": {
                             "duration": null,
+                            "providerGivesEstimate": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "alias": "wise",
+                "name": "Wise",
+                "logo": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                "logos": {
+                    "normal": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo.png"
+                    },
+                    "inverse": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.png"
+                    },
+                    "white": {
+                        "svgUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.svg",
+                        "pngUrl": "https://wise.com/public-resources/assets/logos/wise-personal/logo_white.png"
+                    }
+                },
+                "type": "moneyTransferProvider",
+                "partner": false,
+                "quotes": [
+                    {
+                        "rate": 41.5623,
+                        "fee": 6.32,
+                        "receivedAmount": 3893.56,
+                        "dateCollected": "2023-03-01T08:01:21Z",
+                        "sourceCountry": null,
+                        "targetCountry": null,
+                        "markup": 0.0,
+                        "deliveryEstimation": {
+                            "duration": {
+                                "min": "PT123H58M38.254686153S",
+                                "max": "PT123H58M38.254686153S"
+                            },
                             "providerGivesEstimate": true
                         }
                     }
